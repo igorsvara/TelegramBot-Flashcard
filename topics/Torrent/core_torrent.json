@@ -1,0 +1,128 @@
+[
+    {
+        "domanda": "Cos'è un 'seeder'?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Un seeder è un utente che ha scaricato completamente un file tramite torrent e sta condividendo attivamente quel file con altri utenti."
+            },
+            {
+                "corretta": false,
+                "testo": "Un seeder è un utente che sta scaricando un file tramite torrent senza condividerlo contemporaneamente con gli altri utenti."
+            },
+            {
+                "corretta": false,
+                "testo": "Un seeder è un tipo di link utilizzato per avviare il download di un torrent senza dover scaricare un file .torrent separato."
+            },
+            {
+                "corretta": false,
+                "testo": "Un seeder indica un modello di condivisione in cui gli utenti condividono direttamente i file tra loro senza un server centrale. I torrent utilizzano questo modello."
+            }
+        ]
+    },
+    {
+        "domanda": "Cosa indica il termine 'Magnet Link'?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Un Magnet Link è un tipo di link utilizzato per avviare il download di un torrent senza dover scaricare un file .torrent separato."
+            },
+            {
+                "corretta": false,
+                "testo": "Un Magnet Link è un utente che ha scaricato completamente un file tramite torrent e sta condividendo attivamente quel file con altri utenti."
+            },
+            {
+                "corretta": false,
+                "testo": "Un Magnet Link è un utente che sta scaricando un file tramite torrent senza condividerlo contemporaneamente con gli altri utenti."
+            },
+            {
+                "corretta": false,
+                "testo": "Un Magnet Link indica un modello di condivisione in cui gli utenti condividono direttamente i file tra loro senza un server centrale. I torrent utilizzano questo modello."
+            }
+        ]
+    },
+    {
+        "domanda": "Cosa rappresenta il termine 'Peer-to-Peer (P2P)' nei torrent?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Peer-to-Peer indica un modello di condivisione in cui gli utenti condividono direttamente i file tra loro senza un server centrale. I torrent utilizzano questo modello."
+            },
+            {
+                "corretta": false,
+                "testo": "Peer-to-Peer indica un tipo di link utilizzato per avviare il download di un torrent senza dover scaricare un file .torrent separato."
+            },
+            {
+                "corretta": false,
+                "testo": "Peer-to-Peer è un utente che ha scaricato completamente un file tramite torrent e sta condividendo attivamente quel file con altri utenti."
+            },
+            {
+                "corretta": false,
+                "testo": "Peer-to-Peer è un utente che sta scaricando un file tramite torrent senza condividerlo contemporaneamente con gli altri utenti."
+            }
+        ]
+    },
+    {
+        "domanda": "Cosa significa 'leecher'?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Un leecher è un utente che sta scaricando un file tramite torrent senza condividerlo contemporaneamente con gli altri utenti."
+            },
+            {
+                "corretta": false,
+                "testo": "Un leecher è un utente che ha scaricato completamente un file tramite torrent e sta condividendo attivamente quel file con altri utenti."
+            },
+            {
+                "corretta": false,
+                "testo": "Un leecher è un tipo di link utilizzato per avviare il download di un torrent senza dover scaricare un file .torrent separato."
+            },
+            {
+                "corretta": false,
+                "testo": "Un leecher indica un modello di condivisione in cui gli utenti condividono direttamente i file tra loro senza un server centrale. I torrent utilizzano questo modello."
+            }
+        ]
+    },
+    {
+        "domanda": "Dopo aver scaricato un file tramite torrent, un utente è obbligato a diventare un seeder?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "No, non è obbligato. La partecipazione come seeder è volontaria, e gli utenti possono scegliere se condividere il file o meno."
+            },
+            {
+                "corretta": false,
+                "testo": "Sì, è obbligato. La partecipazione come seeder è automatica dopo il download di un file tramite torrent."
+            },
+            {
+                "corretta": false,
+                "testo": "No, non è obbligato. Tuttavia, diventare un seeder è fortemente raccomandato per garantire un buon funzionamento della rete."
+            },
+            {
+                "corretta": false,
+                "testo": "Sì, è obbligato. La partecipazione come seeder è una condizione per poter scaricare ulteriori file tramite torrent."
+            }
+        ]
+    },
+    {
+        "domanda": "Qual è la funzione di un 'tracker' nei torrent?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Un tracker è un server che coordina la connessione tra seeders e leechers, facilitando la distribuzione dei dati."
+            },
+            {
+                "corretta": false,
+                "testo": "Un tracker è un utente che ha scaricato completamente un file tramite torrent e sta condividendo attivamente quel file con altri utenti."
+            },
+            {
+                "corretta": false,
+                "testo": "Un tracker è un tipo di link utilizzato per avviare il download di un torrent senza dover scaricare un file .torrent separato."
+            },
+            {
+                "corretta": false,
+                "testo": "Un tracker indica un modello di condivisione in cui gli utenti condividono direttamente i file tra loro senza un server centrale. I torrent utilizzano questo modello."
+            }
+        ]
+    }
+]
