@@ -3,8 +3,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes, CallbackQueryHandler
 import json
 
-TOKEN: Final = ""
-BOT_USERNAME: Final = ""
+from token import TOKEN, BOT_USERNAME
 
 # Apri il file JSON con le domande/risposte
 with open('topics/Torrent/core_torrent.json', 'r', encoding='utf-8') as file:
@@ -29,7 +28,6 @@ async def custom_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     reply_markup = InlineKeyboardMarkup(keyboard)
 
     await update.message.reply_text("Custom command in action! Choose an option:", reply_markup=reply_markup)
-
 
 
 # Bot Response
