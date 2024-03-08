@@ -1,0 +1,674 @@
+[
+    {
+        "domanda": "Come sono impostati i server per un gioco multiplayer online? Come comunicano tra loro?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Il client-server model è il modello più comune per i giochi multiplayer online, in cui il server calcola lo stato di gioco e invia aggiornamenti a tutti i client connessi."
+            },
+            {
+                "corretta": false,
+                "testo": "Il peer-to-peer model è il modello più comune per i giochi multiplayer online, in cui ogni giocatore comunica direttamente con gli altri senza un server centrale."
+            },
+            {
+                "corretta": false,
+                "testo": "Il mainframe model è il modello più comune per i giochi multiplayer online, in cui un potente mainframe elabora tutte le informazioni di gioco."
+            },
+            {
+                "corretta": false,
+                "testo": "Il cloud gaming model è il modello più comune per i giochi multiplayer online, in cui il gioco viene eseguito su server cloud e lo stato è trasmesso ai client."
+            }
+        ]
+    },
+    {
+        "domanda": "Cos'è il NAT e quale è il suo ruolo nelle reti?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "NAT, acronimo di Network Address Translation, consente a più dispositivi in una rete privata di condividere un singolo indirizzo IP pubblico."
+            },
+            {
+                "corretta": false,
+                "testo": "NAT sta per Network Authentication and Testing, ed è utilizzato per autenticare dispositivi in una rete."
+            },
+            {
+                "corretta": false,
+                "testo": "NAT sta per Network Access Terminal, ed è un dispositivo che fornisce accesso a Internet in una rete."
+            },
+            {
+                "corretta": false,
+                "testo": "NAT sta per Network Attached Storage, ed è utilizzato per archiviare dati in una rete."
+            }
+        ]
+    },
+    {
+        "domanda": "Cos'è un CDN?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Content Delivery Network. È una rete di server posizionate in varie località geografiche strategiche per coprire località interessate. Le informazioni su questi server vengono duplicate su tutti i server CDN usando algoritmi sofisticati, in modo da garantire una risposta molto rapida ad ogni richiesta da qualsiasi parte del mondo."
+            },
+            {
+                "corretta": false,
+                "testo": "CDN sta per Centralized Data Network, ed è una rete che centralizza tutti i dati in un unico server."
+            },
+            {
+                "corretta": false,
+                "testo": "CDN sta per Cloud Data Network, ed è una rete basata su cloud che gestisce i dati in modo distribuito."
+            },
+            {
+                "corretta": false,
+                "testo": "CDN sta per Compressed Data Network, ed è una rete che comprime i dati per ridurre il consumo di larghezza di banda."
+            }
+        ]
+    },
+    {
+        "domanda": "Cos'è un firewall e quale ruolo svolge nella sicurezza di rete?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Un firewall è un dispositivo o software che controlla e filtra il traffico di rete, proteggendo la rete dagli accessi non autorizzati."
+            },
+            {
+                "corretta": false,
+                "testo": "Un firewall è un dispositivo utilizzato solo per migliorare le prestazioni di rete."
+            },
+            {
+                "corretta": false,
+                "testo": "Un firewall è un dispositivo utilizzato solo per la gestione del traffico di rete."
+            },
+            {
+                "corretta": false,
+                "testo": "Un firewall è un dispositivo utilizzato solo per la memorizzazione sicura dei dati di rete."
+            }
+        ]
+    },
+    {
+        "domanda": "Cos'è una rete di calcolatori?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Una rete di calcolatori è un insieme di dispositivi interconnessi che possono comunicare e condividere risorse."
+            },
+            {
+                "corretta": false,
+                "testo": "Una rete di calcolatori è un singolo dispositivo utilizzato per calcoli complessi."
+            },
+            {
+                "corretta": false,
+                "testo": "Una rete di calcolatori è una raccolta di software per calcoli avanzati."
+            },
+            {
+                "corretta": false,
+                "testo": "Una rete di calcolatori è una serie di calcolatrici collegate tra loro."
+            }
+        ]
+    },
+    {
+        "domanda": "Cosa rappresenta il concetto di latenza di rete?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "La latenza di rete è il ritardo temporale tra l'invio di un dato e la sua ricezione, influenzato da fattori come la velocità di trasmissione e la congestione di rete."
+            },
+            {
+                "corretta": false,
+                "testo": "La latenza di rete è la velocità massima di trasmissione di dati in una rete."
+            },
+            {
+                "corretta": false,
+                "testo": "La latenza di rete è la capacità massima di una rete di gestire simultaneamente molte connessioni."
+            },
+            {
+                "corretta": false,
+                "testo": "La latenza di rete è la quantità totale di dati che una rete può trasmettere in un determinato periodo."
+            }
+        ]
+    },
+    {
+        "domanda": "Cosa rappresenta il modello OSI nelle reti di calcolatori?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Il modello OSI (Open Systems Interconnection) è un modello a sette strati che descrive le funzioni di comunicazione di rete, dalla fisica alla gestione dei dati."
+            },
+            {
+                "corretta": false,
+                "testo": "Il modello OSI è un modello a tre strati utilizzato per la progettazione di hardware di rete."
+            },
+            {
+                "corretta": false,
+                "testo": "Il modello OSI è un modello a cinque strati che gestisce solo la sicurezza delle reti."
+            },
+            {
+                "corretta": false,
+                "testo": "Il modello OSI è un modello a nove strati che copre tutti gli aspetti delle reti di calcolatori."
+            }
+        ]
+    },
+    {
+        "domanda": "Cosa significa DNS e quale è il suo ruolo in una rete?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "DNS, acronimo di Domain Name System, traduce i nomi di dominio in indirizzi IP, consentendo agli utenti di accedere ai siti web utilizzando nomi invece di indirizzi numerici."
+            },
+            {
+                "corretta": false,
+                "testo": "DNS, acronimo di Digital Network Service, fornisce servizi di rete basati su tecnologie digitali."
+            },
+            {
+                "corretta": false,
+                "testo": "DNS, acronimo di Dynamic Naming System, cambia dinamicamente gli indirizzi IP dei dispositivi nella rete."
+            },
+            {
+                "corretta": false,
+                "testo": "DNS, acronimo di Data Network Security, gestisce la sicurezza dei dati nella rete."
+            }
+        ]
+    },
+    {
+        "domanda": "Cosa significa QoS (Quality of Service) in una rete?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "QoS si riferisce alla gestione della qualità del servizio, garantendo che le risorse di rete siano distribuite in modo efficiente per soddisfare requisiti specifici, come la larghezza di banda."
+            },
+            {
+                "corretta": false,
+                "testo": "QoS, acronimo di Quantum Operating System, è un sistema operativo quantico progettato per reti avanzate."
+            },
+            {
+                "corretta": false,
+                "testo": "QoS, acronimo di Quick Online Service, fornisce servizi Internet ad alta velocità."
+            },
+            {
+                "corretta": false,
+                "testo": "QoS, acronimo di Quality Online Security, gestisce la sicurezza delle connessioni Internet."
+            }
+        ]
+    },
+    {
+        "domanda": "Cosa significa TCP/IP e quale ruolo svolge nelle reti?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "TCP/IP, acronimo di Transmission Control Protocol/Internet Protocol, è un insieme di protocolli utilizzati per la comunicazione su reti, incluso Internet."
+            },
+            {
+                "corretta": false,
+                "testo": "TCP/IP, acronimo di Total Control Program/Internet Protocol, controlla completamente la rete e i dispositivi connessi."
+            },
+            {
+                "corretta": false,
+                "testo": "TCP/IP, acronimo di Time Critical Processing/Internet Protocol, gestisce la comunicazione in tempo reale nelle reti."
+            },
+            {
+                "corretta": false,
+                "testo": "TCP/IP, acronimo di Technical Computing Platform/Internet Protocol, fornisce una piattaforma tecnica per lo sviluppo di Internet."
+            }
+        ]
+    },
+    {
+        "domanda": "Cosa significa il termine 'banda larga' in una connessione Internet?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Banda larga si riferisce a una connessione Internet ad alta velocità che offre una larghezza di banda maggiore rispetto alle connessioni dial-up."
+            },
+            {
+                "corretta": false,
+                "testo": "Banda larga si riferisce a una connessione Internet a bassa velocità che offre una larghezza di banda inferiore rispetto alle connessioni dial-up."
+            },
+            {
+                "corretta": false,
+                "testo": "Banda larga si riferisce a una connessione Internet senza fili."
+            },
+            {
+                "corretta": false,
+                "testo": "Banda larga si riferisce a una connessione Internet tramite cavo telefonico."
+            }
+        ]
+    },
+    {
+        "domanda": "Cosa sono i protocolli ICMP e qual è il loro ruolo?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "ICMP, acronimo di Internet Control Message Protocol, è utilizzato per inviare messaggi di controllo e di errore, come ad esempio i messaggi di ping."
+            },
+            {
+                "corretta": false,
+                "testo": "ICMP è un protocollo di routing utilizzato per determinare il percorso ottimale attraverso una rete."
+            },
+            {
+                "corretta": false,
+                "testo": "ICMP è un protocollo di sicurezza utilizzato per crittografare le comunicazioni su Internet."
+            },
+            {
+                "corretta": false,
+                "testo": "ICMP è un protocollo di trasporto utilizzato per la consegna affidabile dei dati su Internet."
+            }
+        ]
+    },
+    {
+        "domanda": "Cosa sono i protocolli di routing e quali sono i più comuni?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "I protocolli di routing determinano il percorso ottimale per il trasferimento dei dati attraverso una rete. Esempi includono OSPF, EIGRP, e BGP."
+            },
+            {
+                "corretta": false,
+                "testo": "I protocolli di routing gestiscono la qualità del servizio in una rete. Esempi includono QoS e DiffServ."
+            },
+            {
+                "corretta": false,
+                "testo": "I protocolli di routing sono utilizzati per crittografare le comunicazioni su Internet. Esempi includono SSL e TLS."
+            },
+            {
+                "corretta": false,
+                "testo": "I protocolli di routing sono utilizzati per il controllo degli accessi in una rete. Esempi includono ACL e RADIUS."
+            }
+        ]
+    },
+    {
+        "domanda": "Cosa sono i protocolli di sicurezza SSL/TLS e qual è il loro ruolo?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "SSL (Secure Sockets Layer) e TLS (Transport Layer Security) sono protocolli crittografici utilizzati per garantire la sicurezza nelle comunicazioni su Internet."
+            },
+            {
+                "corretta": false,
+                "testo": "SSL e TLS sono protocolli di routing utilizzati per determinare il percorso ottimale attraverso una rete."
+            },
+            {
+                "corretta": false,
+                "testo": "SSL e TLS sono protocolli di trasporto utilizzati per la consegna affidabile dei dati su Internet."
+            },
+            {
+                "corretta": false,
+                "testo": "SSL e TLS sono protocolli di sicurezza utilizzati per gestire la qualità del servizio in una rete."
+            }
+        ]
+    },
+    {
+        "domanda": "Cosa sono i protocolli di trasporto TCP e UDP e in cosa differiscono?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "TCP (Transmission Control Protocol) offre una connessione affidabile e orientata alla sessione, mentre UDP (User Datagram Protocol) è senza connessione e adatto per trasmissioni più veloci ma meno affidabili."
+            },
+            {
+                "corretta": false,
+                "testo": "TCP e UDP sono entrambi protocolli di sicurezza utilizzati per crittografare le comunicazioni su Internet."
+            },
+            {
+                "corretta": false,
+                "testo": "TCP e UDP sono entrambi protocolli di routing utilizzati per determinare il percorso ottimale attraverso una rete."
+            },
+            {
+                "corretta": false,
+                "testo": "TCP e UDP sono entrambi protocolli di trasporto utilizzati per la consegna affidabile dei dati su Internet."
+            }
+        ]
+    },
+    {
+        "domanda": "Descrivi il concetto di NAT traversal.",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "NAT traversal consente a dispositivi all'interno di reti private di comunicare attraverso un dispositivo NAT senza richiedere configurazioni complesse."
+            },
+            {
+                "corretta": false,
+                "testo": "NAT traversal è utilizzato per determinare il percorso ottimale attraverso una rete."
+            },
+            {
+                "corretta": false,
+                "testo": "NAT traversal è un protocollo di sicurezza utilizzato per crittografare le comunicazioni su Internet."
+            },
+            {
+                "corretta": false,
+                "testo": "NAT traversal è un protocollo di trasporto utilizzato per la consegna affidabile dei dati su Internet."
+            }
+        ]
+    },
+    {
+        "domanda": "Descrivi il concetto di congestione di rete.",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "La congestione di rete si verifica quando la quantità di dati trasmessi supera la capacità disponibile della rete, portando a ritardi e perdita di pacchetti."
+            },
+            {
+                "corretta": false,
+                "testo": "La congestione di rete è utilizzata per determinare il percorso ottimale attraverso una rete."
+            },
+            {
+                "corretta": false,
+                "testo": "La congestione di rete è un protocollo di sicurezza utilizzato per crittografare le comunicazioni su Internet."
+            },
+            {
+                "corretta": false,
+                "testo": "La congestione di rete è un protocollo di trasporto utilizzato per la consegna affidabile dei dati su Internet."
+            }
+        ]
+    },
+    {
+        "domanda": "Descrivi il concetto di tunneling nelle reti.",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Il tunneling consente di incapsulare un protocollo di rete all'interno di un altro, facilitando la comunicazione sicura attraverso reti pubbliche, come Internet."
+            },
+            {
+                "corretta": false,
+                "testo": "Il tunneling è utilizzato per determinare il percorso ottimale attraverso una rete."
+            },
+            {
+                "corretta": false,
+                "testo": "Il tunneling è un protocollo di sicurezza utilizzato per crittografare le comunicazioni su Internet."
+            },
+            {
+                "corretta": false,
+                "testo": "Il tunneling è un protocollo di trasporto utilizzato per la consegna affidabile dei dati su Internet."
+            }
+        ]
+    },
+    {
+        "domanda": "Descrivi il funzionamento del protocollo DHCP.",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "DHCP (Dynamic Host Configuration Protocol) assegna automaticamente indirizzi IP e altre informazioni di configurazione a dispositivi in una rete."
+            },
+            {
+                "corretta": false,
+                "testo": "DHCP è utilizzato per determinare il percorso ottimale attraverso una rete."
+            },
+            {
+                "corretta": false,
+                "testo": "DHCP è un protocollo di sicurezza utilizzato per crittografare le comunicazioni su Internet."
+            },
+            {
+                "corretta": false,
+                "testo": "DHCP è un protocollo di trasporto utilizzato per la consegna affidabile dei dati su Internet."
+            }
+        ]
+    },
+    {
+        "domanda": "Descrivi la differenza tra una rete LAN e una rete WAN.",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Una LAN (Local Area Network) è limitata a un'area geografica ristretta, mentre una WAN (Wide Area Network) copre un'area geografica più estesa."
+            },
+            {
+                "corretta": false,
+                "testo": "Una LAN è una rete senza fili, mentre una WAN è una rete cablata."
+            },
+            {
+                "corretta": false,
+                "testo": "Una LAN è una rete privata, mentre una WAN è una rete pubblica."
+            },
+            {
+                "corretta": false,
+                "testo": "Una LAN è una rete ad alta velocità, mentre una WAN è una rete a bassa velocità."
+            }
+        ]
+    },
+    {
+        "domanda": "Qual è il ruolo di un IDS (Intrusion Detection System) in una rete?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Un IDS monitora il traffico di rete alla ricerca di attività sospette o potenzialmente dannose, segnalando eventuali intrusioni."
+            },
+            {
+                "corretta": false,
+                "testo": "Un IDS è utilizzato per determinare il percorso ottimale attraverso una rete."
+            },
+            {
+                "corretta": false,
+                "testo": "Un IDS è un protocollo di sicurezza utilizzato per crittografare le comunicazioni su Internet."
+            },
+            {
+                "corretta": false,
+                "testo": "Un IDS è un protocollo di trasporto utilizzato per la consegna affidabile dei dati su Internet."
+            }
+        ]
+    },
+    {
+        "domanda": "Qual è il ruolo di un proxy server nelle reti?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Un proxy server agisce come intermediario tra gli utenti e i server, gestendo le richieste e migliorando la sicurezza e le prestazioni della rete."
+            },
+            {
+                "corretta": false,
+                "testo": "Un proxy server è utilizzato per determinare il percorso ottimale attraverso una rete."
+            },
+            {
+                "corretta": false,
+                "testo": "Un proxy server è un protocollo di sicurezza utilizzato per crittografare le comunicazioni su Internet."
+            },
+            {
+                "corretta": false,
+                "testo": "Un proxy server è un protocollo di trasporto utilizzato per la consegna affidabile dei dati su Internet."
+            }
+        ]
+    },
+    {
+        "domanda": "Qual è la differenza tra switch e hub in una rete?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Uno switch opera a livello di collegamento e inoltra i pacchetti solo al dispositivo di destinazione, mentre un hub inoltra i pacchetti a tutti i dispositivi sulla rete."
+            },
+            {
+                "corretta": false,
+                "testo": "Uno switch e un hub sono sinonimi e possono essere usati interchangeabilmente."
+            },
+            {
+                "corretta": false,
+                "testo": "Uno switch inoltra i pacchetti a tutti i dispositivi sulla rete, mentre un hub inoltra i pacchetti solo al dispositivo di destinazione."
+            },
+            {
+                "corretta": false,
+                "testo": "Uno switch e un hub sono dispositivi completamente diversi e non possono essere confrontati direttamente."
+            }
+        ]
+    },
+    {
+        "domanda": "Qual è la differenza tra un indirizzo IP statico e uno dinamico?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Un indirizzo IP statico è assegnato manualmente e non cambia, mentre un indirizzo IP dinamico è assegnato automaticamente e può variare nel tempo."
+            },
+            {
+                "corretta": false,
+                "testo": "Un indirizzo IP statico è assegnato automaticamente e può variare nel tempo, mentre un indirizzo IP dinamico è assegnato manualmente."
+            },
+            {
+                "corretta": false,
+                "testo": "Un indirizzo IP statico è riservato per l'uso all'interno di reti private, mentre un indirizzo IP dinamico è utilizzato su Internet."
+            },
+            {
+                "corretta": false,
+                "testo": "Un indirizzo IP statico è utilizzato solo per dispositivi wireless, mentre un indirizzo IP dinamico è utilizzato solo per dispositivi cablati."
+            }
+        ]
+    },
+    {
+        "domanda": "Qual è la differenza tra un indirizzo MAC e un indirizzo IP?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "L'indirizzo MAC è un identificatore univoco assegnato all'interfaccia di rete di un dispositivo, mentre l'indirizzo IP è utilizzato per identificare il dispositivo all'interno di una rete IP."
+            },
+            {
+                "corretta": false,
+                "testo": "L'indirizzo MAC e l'indirizzo IP sono sinonimi e possono essere usati interchangeabilmente."
+            },
+            {
+                "corretta": false,
+                "testo": "L'indirizzo MAC è utilizzato solo per dispositivi wireless, mentre l'indirizzo IP è utilizzato solo per dispositivi cablati."
+            },
+            {
+                "corretta": false,
+                "testo": "L'indirizzo MAC è assegnato manualmente e non cambia, mentre l'indirizzo IP è assegnato automaticamente e può variare nel tempo."
+            }
+        ]
+    },
+    {
+        "domanda": "Qual è la differenza tra un router e un gateway?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Un router connette reti diverse, mentre un gateway è un nodo che funge da punto di ingresso o uscita per una rete."
+            },
+            {
+                "corretta": false,
+                "testo": "Un router è un dispositivo di sicurezza, mentre un gateway è un dispositivo di routing."
+            },
+            {
+                "corretta": false,
+                "testo": "Un router è utilizzato solo per reti cablate, mentre un gateway è utilizzato solo per reti wireless."
+            },
+            {
+                "corretta": false,
+                "testo": "Un router è un dispositivo hardware, mentre un gateway è un software."
+            }
+        ]
+    },
+    {
+        "domanda": "Qual è la funzione del protocollo ARP (Address Resolution Protocol)?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "ARP converte gli indirizzi IP in indirizzi MAC all'interno di una rete locale."
+            },
+            {
+                "corretta": false,
+                "testo": "ARP è utilizzato per determinare il percorso ottimale attraverso una rete."
+            },
+            {
+                "corretta": false,
+                "testo": "ARP è un protocollo di sicurezza utilizzato per crittografare le comunicazioni su Internet."
+            },
+            {
+                "corretta": false,
+                "testo": "ARP è un protocollo di trasporto utilizzato per la consegna affidabile dei dati su Internet."
+            }
+        ]
+    },
+    {
+        "domanda": "Qual è lo scopo principale di una rete di calcolatori?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Lo scopo principale di una rete di calcolatori è consentire la comunicazione e lo scambio di dati tra dispositivi."
+            },
+            {
+                "corretta": false,
+                "testo": "Lo scopo principale di una rete di calcolatori è garantire la sicurezza delle informazioni."
+            },
+            {
+                "corretta": false,
+                "testo": "Lo scopo principale di una rete di calcolatori è eseguire calcoli complessi in modo distribuito."
+            },
+            {
+                "corretta": false,
+                "testo": "Lo scopo principale di una rete di calcolatori è fornire accesso a Internet."
+            }
+        ]
+    },
+    {
+        "domanda": "Spiega il concetto di VLAN (Virtual Local Area Network).",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Una VLAN è una rete logica creata su una rete fisica, consentendo di suddividere un switch in più segmenti isolati."
+            },
+            {
+                "corretta": false,
+                "testo": "Una VLAN è un protocollo di sicurezza utilizzato per crittografare le comunicazioni su Internet."
+            },
+            {
+                "corretta": false,
+                "testo": "Una VLAN è utilizzata per determinare il percorso ottimale attraverso una rete."
+            },
+            {
+                "corretta": false,
+                "testo": "Una VLAN è un protocollo di trasporto utilizzato per la consegna affidabile dei dati su Internet."
+            }
+        ]
+    },
+    {
+        "domanda": "Spiega il concetto di indirizzo IP privato.",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Gli indirizzi IP privati sono riservati per l'uso all'interno di reti private e non sono direttamente accessibili su Internet."
+            },
+            {
+                "corretta": false,
+                "testo": "Gli indirizzi IP privati sono assegnati automaticamente e possono variare nel tempo."
+            },
+            {
+                "corretta": false,
+                "testo": "Gli indirizzi IP privati sono utilizzati solo per dispositivi wireless."
+            },
+            {
+                "corretta": false,
+                "testo": "Gli indirizzi IP privati sono assegnati manualmente e sono accessibili su Internet."
+            }
+        ]
+    },
+    {
+        "domanda": "Spiega il concetto di routing nelle reti.",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Il routing è il processo di instradamento dei dati da una sorgente a una destinazione attraverso una rete, basato su algoritmi e tabelle di routing."
+            },
+            {
+                "corretta": false,
+                "testo": "Il routing è il processo di invio di dati da un dispositivo a un altro all'interno della stessa rete locale."
+            },
+            {
+                "corretta": false,
+                "testo": "Il routing è il processo di crittografia dei dati trasmessi attraverso una rete."
+            },
+            {
+                "corretta": false,
+                "testo": "Il routing è il processo di misurazione della larghezza di banda disponibile in una rete."
+            }
+        ]
+    },
+    {
+        "domanda": "Spiega il concetto di subnetting.",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Subnetting è la pratica di suddividere una rete IP in sotto-reti più piccole per migliorare l'efficienza e la sicurezza."
+            },
+            {
+                "corretta": false,
+                "testo": "Subnetting è la pratica di combinare più reti IP in una singola rete più grande."
+            },
+            {
+                "corretta": false,
+                "testo": "Subnetting è la pratica di collegare fisicamente più reti per aumentare la velocità di trasferimento dei dati."
+            },
+            {
+                "corretta": false,
+                "testo": "Subnetting è la pratica di assegnare un singolo indirizzo IP a tutti i dispositivi in una rete."
+            }
+        ]
+    }
+]
