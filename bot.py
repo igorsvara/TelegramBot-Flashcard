@@ -1,21 +1,45 @@
-from typing import Final
+import os
+import json
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardRemove
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes, CallbackQueryHandler, \
     ConversationHandler
-import json
 
 from mytoken import TOKEN, BOT_USERNAME
 
 CHOSE_DECK, CHOSE_CARD, SHOW_CARD, SHOW_ANSWER = range(4)
 
+
+def leggi_file_json(cartella):
+    percorso_file_json = os.path.join(cartella, f"core_{os.path.basename(cartella)}.json")
+
+    with open(percorso_file_json, 'r', encoding="utf-8") as file:
+        contenuto_json = json.load(file)
+
+    return contenuto_json
+
+
+def ottieni_dizionario_cartelle(path_esterno):
+    dizionario_cartelle = {}
+
+    for cartella in os.listdir(path_esterno):
+        percorso_cartella = os.path.join(path_esterno, cartella)
+
+        if os.path.isdir(percorso_cartella):
+            contenuto_json = leggi_file_json(percorso_cartella)
+            dizionario_cartelle[cartella] = contenuto_json
+
+    return dizionario_cartelle
+
+
+path = 'topics'
+all_decks = ottieni_dizionario_cartelle(path)
+
 # Apri il file JSON con le domande/risposte
 with open('topics/Torrent/core_torrent.json', 'r', encoding='utf-8') as file:
     domande_risposte = json.load(file)
 
-deck_list = ["SO", "CPS", "ASD", "DB"]
+deck_list = list(all_decks.keys())
 
-l = [f"{i} -> {answer['testo']}" for i, answer in enumerate(domande_risposte[0]["opzioni"])]
-print(l)
 
 # Commands
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -24,35 +48,6 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Let me help. Please type something so I can respond.")
-
-
-# Messages
-def handle_response(text: str):
-    processed: str = text.lower()
-
-    if processed in ["hello", "hi", "good morning"]:
-        return "Hi there!"
-
-    return "I'm not jet trained to understand that, sorry."
-
-
-async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    message_type: str = update.message.chat.type
-    text: str = update.message.text
-
-    print(f'User {update.message.chat.id} in {message_type}: "{text}"')
-
-    if message_type == 'group':
-        if BOT_USERNAME in text:
-            new_text: str = text.replace(BOT_USERNAME, '').strip()
-            response: str = handle_response(new_text)
-        else:
-            return
-    else:
-        response: str = handle_response(text)
-
-    print(f'Bot: {response}')
-    await update.message.reply_text(response)
 
 
 # Conversation
@@ -236,13 +231,11 @@ if __name__ == "__main__":
             ],
         },
         fallbacks=[CommandHandler('cancel', cancel)],
+        per_message=True
     )
     app.add_handler(deck_conversation)
     # TODO: find a way to practise with this questions
     app.add_handler(CommandHandler('train_deck', flashcard))
-
-    # Messages
-    app.add_handler(MessageHandler(filters.TEXT & (~filters.COMMAND), handle_message))
 
     # Errors
     app.add_error_handler(error)
