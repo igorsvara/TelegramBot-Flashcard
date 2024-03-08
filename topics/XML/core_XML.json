@@ -1,0 +1,212 @@
+[
+    {
+        "domanda": "Come si collega un DTD a un documento XML?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Il DTD può essere collegato direttamente nel documento XML, da un file sul sistema o da un file pubblico."
+            },
+            {
+                "corretta": false,
+                "testo": "Il DTD viene sempre incorporato direttamente nel documento XML."
+            },
+            {
+                "corretta": false,
+                "testo": "Il DTD può essere collegato solo da un file pubblico."
+            },
+            {
+                "corretta": false,
+                "testo": "Il DTD può essere collegato solo da un file sul sistema."
+            }
+        ]
+    },
+    {
+        "domanda": "Come si dichiara un attributo in una dichiarazione DTD?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Usando <!ATTLIST name_el name_att tipo_att uso_att>, dove name_el è il nome dell'elemento che possiede gli attributi, name_att è il nome dell'attributo, e tipo_att e uso_att sono il tipo e l'uso dell'attributo."
+            },
+            {
+                "corretta": false,
+                "testo": "Usando <!ATTRIBUTE name_el name_att tipo_att uso_att>."
+            },
+            {
+                "corretta": false,
+                "testo": "Usando <!ELEMENT name_el (name_att tipo_att uso_att)>."
+            },
+            {
+                "corretta": false,
+                "testo": "Usando <!ATTRIBUTE name_el (name_att tipo_att uso_att)>."
+            }
+        ]
+    },
+    {
+        "domanda": "Cos'è un DTD e a cosa serve?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "DTD sta per Document Type Definition ed è un documento che dichiara la sintassi di un tipo di documento XML. Serve per definire regole come quali elementi possono essere utilizzati, quali attributi possono avere, ecc."
+            },
+            {
+                "corretta": false,
+                "testo": "DTD sta per Document Transformation Document ed è un documento utilizzato per trasformare XML in altri formati."
+            },
+            {
+                "corretta": false,
+                "testo": "DTD sta per Document Type Declaration ed è un documento utilizzato solo per dichiarare il tipo di documento XML."
+            },
+            {
+                "corretta": false,
+                "testo": "DTD sta per Document Type Descriptor ed è un documento utilizzato per descrivere il tipo di documento XML."
+            }
+        ]
+    },
+    {
+        "domanda": "Cosa sono gli attributi in XML e a cosa servono?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Gli attributi forniscono informazioni aggiuntive agli elementi in XML e sono dichiarati all'interno dei tag degli elementi."
+            },
+            {
+                "corretta": false,
+                "testo": "Gli attributi sono elementi speciali in XML utilizzati solo per scopi decorativi."
+            },
+            {
+                "corretta": false,
+                "testo": "Gli attributi sono dichiarati solo all'esterno dei tag degli elementi in XML."
+            },
+            {
+                "corretta": false,
+                "testo": "Gli attributi sono opzionali in XML e non servono a scopi specifici."
+            }
+        ]
+    },
+    {
+        "domanda": "Qual è la dichiarazione XML e dove si trova di solito in un file XML?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "La dichiarazione XML (<?xml version=\"1.0\"?>) si trova all'inizio di un file XML."
+            },
+            {
+                "corretta": false,
+                "testo": "La dichiarazione XML (<!DOCTYPE xml>) si trova alla fine di un file XML."
+            },
+            {
+                "corretta": false,
+                "testo": "La dichiarazione XML (<?declaration xml?>) si trova in mezzo a un file XML."
+            },
+            {
+                "corretta": false,
+                "testo": "La dichiarazione XML (<!xml version=\"1.0\">) si trova all'inizio di un file XML."
+            }
+        ]
+    },
+    {
+        "domanda": "Quali sono i tipi di dato per gli attributi in una dichiarazione DTD?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "I tipi di dato includono CDATA, ID, IDREF, IDREFS, NMTOKEN, NMTOKENS, e una sequenza di token come (n1 | n2 | ... | nk)."
+            },
+            {
+                "corretta": false,
+                "testo": "I tipi di dato includono solo numeri interi e stringhe."
+            },
+            {
+                "corretta": false,
+                "testo": "I tipi di dato includono solo testo libero e booleani."
+            },
+            {
+                "corretta": false,
+                "testo": "I tipi di dato includono solo valori booleani e date."
+            }
+        ]
+    },
+    {
+        "domanda": "Quali sono le regole per i nomi degli elementi in XML?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "I nomi degli elementi devono cominciare con un underscore (_) o lettere minuscole, seguite da lettere, numeri, underscore, punti (.) o trattini (-), senza spazi."
+            },
+            {
+                "corretta": false,
+                "testo": "I nomi degli elementi devono cominciare con un numero o una lettera maiuscola."
+            },
+            {
+                "corretta": false,
+                "testo": "I nomi degli elementi possono contenere solo lettere minuscole."
+            },
+            {
+                "corretta": false,
+                "testo": "I nomi degli elementi possono contenere solo numeri e trattini."
+            }
+        ]
+    },
+    {
+        "domanda": "Spiega il concetto di entità in XML.",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "Le entità sono riferimenti a sequenze di caratteri e sono contenute tra & e ;. Esistono entità predefinite come &lt;, &gt;, &amp;, &quot;, e &apos;."
+            },
+            {
+                "corretta": false,
+                "testo": "Le entità sono elementi speciali in XML utilizzati solo per scopi decorativi."
+            },
+            {
+                "corretta": false,
+                "testo": "Le entità sono riferimenti a sequenze di caratteri contenute tra [ e ]."
+            },
+            {
+                "corretta": false,
+                "testo": "Le entità sono dichiarazioni di attributi in XML."
+            }
+        ]
+    },
+    {
+        "domanda": "Spiega la dichiarazione DTD <!ELEMENT name (#PCDATA)>.",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "L'elemento name può contenere solo testo."
+            },
+            {
+                "corretta": false,
+                "testo": "L'elemento name può contenere solo attributi."
+            },
+            {
+                "corretta": false,
+                "testo": "L'elemento name può contenere solo elementi figli."
+            },
+            {
+                "corretta": false,
+                "testo": "L'elemento name è vuoto e non può contenere nulla."
+            }
+        ]
+    },
+    {
+        "domanda": "Cos'è XML?",
+        "opzioni": [
+            {
+                "corretta": true,
+                "testo": "XML sta per eXtensible Markup Language ed è un linguaggio di markup che permette di definire un proprio linguaggio di markup."
+            },
+            {
+                "corretta": false,
+                "testo": "XML sta per eXtra Markup Language ed è una versione avanzata di HTML."
+            },
+            {
+                "corretta": false,
+                "testo": "XML sta per eXact Markup Language ed è un linguaggio di markup fisso senza possibilità di estensione."
+            },
+            {
+                "corretta": false,
+                "testo": "XML sta per eXperimental Markup Language ed è ancora in fase sperimentale."
+            }
+        ]
+    }
+]
